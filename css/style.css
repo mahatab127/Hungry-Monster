@@ -1,0 +1,36 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* scroll-behavior: smooth; */
+}
+
+input {
+  background: #f8f7f5;
+  border: none;
+  outline: none;
+  border: 1px solid #ddd;
+  text-align: left;
+  width: 500px;
+  height: 52px;
+  padding-left: 50px;
+  border-radius: 8px 0px 0px 8px;
+}
+.searchBar {
+  padding-top: 50px;
+}
+.searchBtn {
+    background: #f06c4e;
+    border: none;
+    position: absolute;
+    padding: 14px;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+    outline: none;
+  }
+  
+  .searchBtn:focus {
+    outline: none;
+  }
+
